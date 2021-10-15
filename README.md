@@ -5,7 +5,8 @@
 On an Arch-based distribution as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+pacman -S wget
+wget -O larbs.sh https://raw.githubusercontent.com/johndovern/NARBS/master/larbs.sh
 sh larbs.sh
 ```
 
