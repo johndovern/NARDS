@@ -6,7 +6,7 @@ On an Arch-based distribution as root, run the following:
 
 ```
 pacman -S wget
-wget -O larbs.sh https://raw.githubusercontent.com/johndovern/NARBS/master/larbs.sh
+wget -O larbs.sh https://raw.githubusercontent.com/johndovern/NARDS/master/larbs.sh
 sh larbs.sh
 ```
 
