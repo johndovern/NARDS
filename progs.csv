@@ -41,7 +41,7 @@ A,abook,"is an offline addressbook usable by neomutt."
 ,lynx,"is a terminal browser."
 ,xcape,"gives the special escape/super mappings of LARBS."
 ,xclip,"allows for copying and pasting from the command line."
-,xdotool,"provides window action utilities on the command line."i
+,xdotool,"provides window action utilities on the command line."
 ,xorg-xdpyinfo,"aids with resolution determination and screen recording."
 ,youtube-dl,"can download any YouTube video (or playlist or channel) when given the link."
 ,zathura,"is a pdf viewer with vim-like bindings."
