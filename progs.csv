@@ -1,5 +1,4 @@
 #TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
-A,nerd-fonts-complete,"is the system fonts."
 ,xorg-server,"is the graphical server."
 ,xorg-xwininfo,"allows querying information about windows."
 ,xorg-xinit,"starts the graphical server."
@@ -81,3 +80,4 @@ A,mutt-wizard-git,"is a light-weight terminal-based email system."
 ,slock,"allows you to lock your computer, and quickly unlock with your password."
 ,socat,"is a utility which establishes two byte streams and transfers data between them."
 ,moreutils,"is a collection of useful unix tools."
+A,nerd-fonts-complete,"contains system fonts."
