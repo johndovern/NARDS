@@ -85,6 +85,7 @@ A,qt5ct-kde,"allows for kde filepicker."
 ,xdg-desktop-portal,"allows for kde filepicker."
 ,xdg-desktop-portal-kde,"allows for kde filepicker."
 ### Nice but not necessary, comment out if you don't use any of this or aren't a VN chad
+,shellcheck,"is a scripting helper"
 ,xf86-input-synaptics,"is a Synaptics driver for notebook touchpads."
 ,xf86-video-intel,"are Xorg intel video drivers."
 ,xdg-user-dirs,"allows for managing user directories."
