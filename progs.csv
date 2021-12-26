@@ -63,7 +63,7 @@ A,mutt-wizard-git,"is a light-weight terminal-based email system."
 G,https://github.com/johndovern/slock.git,"is my patched build of slock, allows you to lock your computer, and quickly unlock with your password."
 ,socat,"is a utility which establishes two byte streams and transfers data between them."
 ,moreutils,"is a collection of useful unix tools."
-### Needed if installing my dotfiles, can uncomment if uneeded
+# Needed if installing my dotfiles, can uncomment if uneeded
 ,ffmpegthumbnailer,"enables video previews with lf."
 ,imagemagick,"enables image previews with lf."
 ,poppler,"enables previews with lf."
@@ -77,14 +77,14 @@ A,epub-thumbnailer-git,"enables epub thumbnails with lf."
 ,odt2txt," enables previews for .od files in lf (optional)."
 ,gnumeric,"enables previews for .xls and .xlsx files in lf (optional)."
 ,wmctrl,"allows for dwm window focusing/scripting."
-### Needed if installing my version of slock
+# Needed if installing my version of slock
 ,xorg-fonts-100dpi,"are the fonts used for slock message."
-### If you want to use the kde file picker with qutebrowser, leave these uncommented
+# If you want to use the kde file picker with qutebrowser, leave these uncommented
 ,dolphin,"is the filepicker for qutebrowser."
 A,qt5ct-kde,"allows for kde filepicker."
 ,xdg-desktop-portal,"allows for kde filepicker."
 ,xdg-desktop-portal-kde,"allows for kde filepicker."
-### Nice but not necessary, comment out if you don't use any of this or aren't a VN chad
+# Nice but not necessary, comment out if you don't use any of this or aren't a VN chad
 ,shellcheck,"is a scripting helper"
 ,xf86-input-synaptics,"is a Synaptics driver for notebook touchpads."
 ,xf86-video-intel,"are Xorg intel video drivers."
@@ -113,5 +113,10 @@ A,timeshift,"is a system restor utility for Linux."
 ,wine-mono,"is wine's built-in replacement for Microsoft's .NET Framework."
 ,winetricks,"is a script to install various redistributable runtime libraries in Wine."
 ,gimp,"is the photo editor."
-### This is the system font, replace it if you like, but you'll have to edit my version of dwm as it does not take fonts from xresources. Obviously you'll need to edit xresources to use whatever font you choose. Xresources is pulled by st and dmenu. It is last because it takes a long time to install and I don't want you to think shit froze
+A,coreshot,"is a gui screenshot utility, good for precise screenshots."
+# This is the system font, replace it if you like, but you'll have to edit my
+# version of dwm as it does not take fonts from xresources. Obviously you'll
+# need to edit xresources to use whatever font you choose. Xresources is pulled
+# by st and dmenu. It is last because it takes a long time to install and I
+# don't want you to think shit froze
 A,nerd-fonts-complete,"contains the system font."
