@@ -80,6 +80,7 @@ A,epub-thumbnailer-git,"enables epub thumbnails with lf."
 ,wmctrl,"allows for dwm window focusing/scripting."
 A,kmonad-bin,"allows for configuration non qmk keyboards."
 ,jq,"is a command-line JSON processor, neccessary for some scripts."
+,tmux,"is the system shell"
 # Needed if installing my version of slock
 ,xorg-fonts-100dpi,"are the fonts used for slock message."
 # If you want to use the kde file picker with qutebrowser, leave these uncommented
