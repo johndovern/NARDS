@@ -155,7 +155,7 @@ systembeepoff() { dialog --infobox "Getting rid of that retarded error beep soun
 verify() { \
   if ! sudo -u "$name" $aurhelper -Q nerd-fonts-complete >/dev/null 2>&1; then
     dialog --title "LARBS Installation" --infobox "Installing nerd-fonts-complete from the AUR. $1 $2" 5 70
-    sudo -u "$name" $aurhelper -S  --noconfirm nerd-fonts-complete >/dev/null 2>&1
+    sudo -u "$name" $aurhelper -S --noconfirm nerd-fonts-complete >/dev/null 2>&1
   fi;}
 
 makehome() { \
