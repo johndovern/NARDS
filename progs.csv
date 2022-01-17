@@ -61,7 +61,7 @@ G,https://github.com/johndovern/st.git,"is my fork of Luke's custom build of suc
 G,https://github.com/johndovern/dwm.git,"is the window manager."
 A,mutt-wizard-git,"is a light-weight terminal-based email system."
 G,https://github.com/johndovern/slock.git,"is my patched build of slock, allows you to lock your computer, and quickly unlock with your password."
-G,https://github.com/johndovern/nsxiv.gi,"is my patched build of nsxiv, the image viewer for the system."
+G,https://github.com/johndovern/nsxiv.git,"is my patched build of nsxiv, the image viewer for the system."
 ,socat,"is a utility which establishes two byte streams and transfers data between them."
 ,moreutils,"is a collection of useful unix tools."
 ,qutebrowser,"is the default web browser for the system."
