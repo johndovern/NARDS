@@ -154,13 +154,13 @@ systembeepoff() { dialog --infobox "Getting rid of that retarded error beep soun
 
 verify() { \
   if ! sudo -u "$name" $aurhelper -Q nerd-fonts-complete >/dev/null 2>&1; then
-    dialog --title "LARBS Installation" --infobox "Installing nerd-fonts-complete from the AUR. $1 $2" 5 70
+    dialog --title "LARBS Installation" --infobox "Installing nerd-fonts-complete from the AUR." 5 70
     sudo -u "$name" $aurhelper -S --noconfirm nerd-fonts-complete >/dev/null 2>&1
   fi;}
 
 makehome() { \
-  if [ -e /home/$name/.local/bin/mkhome ]; then
-    dialog --title "LARBS Installation" --infobox "Building a nice home $1 $2" 5 70
+  if [ -e /home/"$name"/.local/bin/mkhome ]; then
+    dialog --title "LARBS Installation" --infobox "Building a nice home" 5 70
     sh "/home/$name/.local/bin/mkhome" "$name"
   fi
 }
@@ -229,7 +229,7 @@ dialog --title "LARBS Installation" --infobox "Finally, installing \`libxft-bgra
 yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
 
 # Ensure nerd-fonts-complete is installed
-verify || error "Failed to install nerd-fonts-complete"
+verify
 
 # Install the dotfiles in the user's home directory
 putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"

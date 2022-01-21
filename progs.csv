@@ -109,6 +109,7 @@ A,librewolf-bin,"is librewolf but without the autism of compiling the other aur 
 ,parallel,"is a shell tool for executing jobs in parallel."
 ,pcmanfm-gtk3,"is the gui filemanager."
 A,timeshift,"is a system restor utility for Linux."
+A,timeshift-autosnap,"is a hook for creating backups before updating via pacman or yay."
 ,transmission-gtk,"is the torrent GUI."
 ,virt-manager,"is a desktop user interface for managing virtual machines."
 ,virt-viewer,"is an interface for interacting with graphical display of a VM."
@@ -121,4 +122,4 @@ A,unetbootin,"is a tool for creating bootable live USB drives."
 # need to edit xresources to use whatever font you choose. Xresources is pulled
 # by st and dmenu. It is last because it takes a long time to install and I
 # don't want you to think shit froze
-A,nerd-fonts-complete,"contains the system font."
+A,nerd-fonts-fantasque-sans-mono,"contains the system font."
