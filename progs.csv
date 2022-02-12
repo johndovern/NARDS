@@ -117,6 +117,7 @@ A,timeshift-autosnap,"is a hook for creating backups before updating via pacman 
 ,wine-mono,"is wine's built-in replacement for Microsoft's .NET Framework."
 ,winetricks,"is a script to install various redistributable runtime libraries in Wine."
 A,unetbootin,"is a tool for creating bootable live USB drives."
+,gsmartcontrol,"is a gui for SMART statistics."
 # This is the system font, replace it if you like, but you'll have to edit my
 # version of dwm as it does not take fonts from xresources. Obviously you'll
 # need to edit xresources to use whatever font you choose. Xresources is pulled
