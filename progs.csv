@@ -123,4 +123,4 @@ A,unetbootin,"is a tool for creating bootable live USB drives."
 # need to edit xresources to use whatever font you choose. Xresources is pulled
 # by st and dmenu. It is last because it takes a long time to install and I
 # don't want you to think shit froze
-A,nerd-fonts-complete-mono-glyph,"contains the system font."
+A,nerd-fonts-complete-mono-glyphs,"contains the system font."
