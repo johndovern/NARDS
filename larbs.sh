@@ -153,9 +153,11 @@ systembeepoff() { dialog --infobox "Getting rid of that retarded error beep soun
 	echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf ;}
 
 verify() { \
-  while ! sudo -u "$name" $aurhelper -Q nerd-fonts-complete-mono-glyphs >/dev/null 2>&1; do
+  font_test="1"
+  while ! sudo -u "$name" $aurhelper -Q ttf-joypixels ttf-mplus nerd-fonts-fantasque-sans-mono >/dev/null 2>&1 || [ "$font_test" == "1" ]; do
     dialog --title "LARBS Installation" --infobox "Installing nerd-fonts-complete from the AUR." 5 70
-    sudo -u "$name" $aurhelper -S --noconfirm nerd-fonts-complete-mono-glyphs >/dev/null 2>&1
+    sudo -u "$name" $aurhelper -S --noconfirm --needed nerd-fonts-fantasque-sans-mono ttf-joypixels ttf-mplus >/dev/null 2>&1
+    font_test=$((font_test+1))
   done;}
 
 makehome() { \
