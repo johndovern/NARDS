@@ -80,7 +80,7 @@ A,epub-thumbnailer-git,"enables epub thumbnails with lf."
 ,wmctrl,"allows for dwm window focusing/scripting."
 A,kmonad-bin,"allows for configuration non qmk keyboards."
 ,jq,"is a command-line JSON processor, neccessary for some scripts."
-,tmux,"is the system shell"
+,tmux,"is the system shell."
 # Needed if installing my version of slock
 ,xorg-fonts-100dpi,"are the fonts used for slock message."
 # If you want to use the kde file picker with qutebrowser, leave these uncommented
@@ -118,6 +118,8 @@ A,timeshift-autosnap,"is a hook for creating backups before updating via pacman 
 ,winetricks,"is a script to install various redistributable runtime libraries in Wine."
 A,unetbootin,"is a tool for creating bootable live USB drives."
 ,gsmartcontrol,"is a gui for SMART statistics."
+A,mullvad-vpn-bin,"is the system vpn."
+,sxhkd,"is the hot-key daemon for the system."
 # This is the system font, replace it if you like, but you'll have to edit my
 # version of dwm as it does not take fonts from xresources. Obviously you'll
 # need to edit xresources to use whatever font you choose. Xresources is pulled
@@ -125,5 +127,4 @@ A,unetbootin,"is a tool for creating bootable live USB drives."
 # don't want you to think shit froze
 ,ttf-joypixels,"Emoji font for the system."
 A,ttf-mplus,"is a japanese font for the system."
-A,nerd-fonts-fantasque-sans-mono,"is the main font for the system."
-# A,nerd-fonts-complete-mono-glyphs,"contains the system font."
+,ttf-hack,"is the main font for the system."
