@@ -65,6 +65,7 @@ G,https://github.com/johndovern/nsxiv.git,"is my patched build of nsxiv, the ima
 ,socat,"is a utility which establishes two byte streams and transfers data between them."
 ,moreutils,"is a collection of useful unix tools."
 ,qutebrowser,"is the default web browser for the system."
+,perl-file-mimeinfo,"is the opener for lf."
 # Needed if installing my dotfiles, can uncomment if uneeded
 ,ffmpegthumbnailer,"enables video previews with lf."
 ,imagemagick,"enables image previews with lf."
