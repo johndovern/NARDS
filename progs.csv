@@ -121,6 +121,8 @@ A,unetbootin,"is a tool for creating bootable live USB drives."
 ,gsmartcontrol,"is a gui for SMART statistics."
 A,mullvad-vpn-bin,"is the system vpn."
 ,sxhkd,"is the hot-key daemon for the system."
+,redshift,"is good for your eyes."
+,easyeffects,"is good for your mic."
 # This is the system font, replace it if you like, but you'll have to edit my
 # version of dwm as it does not take fonts from xresources. Obviously you'll
 # need to edit xresources to use whatever font you choose. Xresources is pulled
