@@ -16,7 +16,7 @@ esac done
 
 [ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/johndovern/dotfiles.git"
 [ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/johndovern/NARDS/master/progs.csv"
-[ -z "$aurhelper" ] && aurhelper="yay"
+[ -z "$aurhelper" ] && aurhelper="paru"
 [ -z "$repobranch" ] && repobranch="master"
 
 ### FUNCTIONS ###
