@@ -83,12 +83,13 @@ A,kmonad-bin,"allows for configuration non qmk keyboards."
 ,jq,"is a command-line JSON processor neccessary for some scripts."
 ,tmux,"is a terminal multiplexer."
 # Needed if installing my version of slock
-,xorg-fonts-100dpi,"are the fonts used for slock message."
+,xorg-fonts-alias-100dpi,"are the fonts used for slock message."
+,xorg-fonts-100dpi-otb,"are the fonts used for slock message."
 # If you want to use the kde file picker with qutebrowser, leave these uncommented
-,dolphin,"is the filepicker for qutebrowser."
-A,qt5ct-kde,"allows for kde filepicker."
-,xdg-desktop-portal,"allows for kde filepicker."
-,xdg-desktop-portal-kde,"allows for kde filepicker."
+# ,dolphin,"is the filepicker for qutebrowser."
+# A,qt5ct-kde,"allows for kde filepicker."
+# ,xdg-desktop-portal,"allows for kde filepicker."
+# ,xdg-desktop-portal-kde,"allows for kde filepicker."
 # Nice but not necessary, comment out if you don't use any of this or aren't a VN chad
 ,shellcheck,"is a scripting helper"
 ,xf86-input-synaptics,"is a Synaptics driver for notebook touchpads."
